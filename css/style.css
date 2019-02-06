@@ -32,11 +32,14 @@ body {
         /* max-width: 960px; */
         margin: 0 auto;
 
+        /* Make better main to display more content */
         grid-template-areas:
-        "header header header header"
-        "aside aside main main"
-        "nav nav main main"
-        "section section section section"
+        "header header header nav"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
+        "aside main main main"
         "section section section section"
         "footer footer footer footer";
     }
